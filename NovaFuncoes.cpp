@@ -143,7 +143,7 @@ public:
         cout << "MD2" << endl;
     }
     void MD3(){
-        cout <<"MD3" << endl;
+        cout <<"MD3 alterado" << endl;
     }
 };
 
