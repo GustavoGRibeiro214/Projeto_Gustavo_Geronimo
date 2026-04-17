@@ -145,6 +145,9 @@ public:
     void MD3(){
         cout <<"MD3 alterado" << endl;
     }
+    void MD4(){
+        cout << "MD4" <<endl;
+    }
 };
 
 int main() {
