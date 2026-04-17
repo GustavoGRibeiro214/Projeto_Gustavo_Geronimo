@@ -69,6 +69,10 @@ public:
     void MB2() {
         cout << "MB2" << endl;
     }
+
+    void MB3(){
+        cout <<"MB3" << endl;
+    }
 };
 
 class C {
@@ -101,6 +105,45 @@ public:
 
     void MC2() {
         cout << "MC2" << endl;
+    }
+    void MC3(){
+        cout <<"MC3" << endl;
+    }
+};
+
+class D {
+private:
+    int D1;
+    float D2;
+
+public:
+    // Getters
+    int getD1() {
+        return D1;
+    }
+
+    float getD2() {
+        return D2;
+    }
+
+    // Setters
+    void setD1(int valor) {
+        D1 = valor;
+    }
+
+    void setD2(float valor) {
+        D2 = valor;
+    }
+
+    void MD1() {
+        cout << "MD1" << endl;
+    }
+
+    void MD2() {
+        cout << "MD2" << endl;
+    }
+    void MD3(){
+        cout <<"MD3" << endl;
     }
 };
 
