@@ -32,6 +32,10 @@ public:
     void MA2() {
         cout << "MA2" << endl;
     }
+
+    void MA3(){
+        cout <<"Alteração a classe A partir do clone" << endl;
+    }
 };
 
 class B {
@@ -67,7 +71,39 @@ public:
     }
 };
 
-// Função principal para testar
+class C {
+private:
+    int C1;
+    float C2;
+
+public:
+    // Getters
+    int getC1() {
+        return C1;
+    }
+
+    float getC2() {
+        return C2;
+    }
+
+    // Setters
+    void setC1(int valor) {
+        C1 = valor;
+    }
+
+    void setC2(float valor) {
+        C2 = valor;
+    }
+
+    void MC1() {
+        cout << "MC1" << endl;
+    }
+
+    void MC2() {
+        cout << "MC2" << endl;
+    }
+};
+
 int main() {
     return 0;
 }
